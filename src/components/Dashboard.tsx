@@ -35,7 +35,7 @@ const Dashboard: React.FC<DashboardProps> = ({
   const weeklyRewards = "₦180,000.00";
 
   const handleWatchTelegram = () => {
-    window.open('https://t.me/officialbluepay2025', '_blank');
+    window.open('https://t.me/+jKWRPrvfue8zMGM0', '_blank');
   };
 
   const services = [
