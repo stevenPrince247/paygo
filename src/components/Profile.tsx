@@ -25,7 +25,7 @@ const Profile: React.FC<ProfileProps> = ({
   const [profileData, setProfileData] = useState({
     fullName: userName,
     email: userEmail,
-    phone: '+234 801 234 5678',
+    phone: '+2348161138485',
     about: 'PayGo user since 2023'
   });
 
