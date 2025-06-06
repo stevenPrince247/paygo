@@ -17,7 +17,7 @@ const Support: React.FC<SupportProps> = ({ onBack }) => {
   };
 
   const handleWhatsAppSupport = () => {
-    window.open('https://wa.me/2348189668037', '_blank');
+    window.open('https://wa.me/+2347052785021', '_blank');
   };
 
   return (
@@ -74,7 +74,7 @@ const Support: React.FC<SupportProps> = ({ onBack }) => {
               💬 Chat on WhatsApp
             </Button>
             <p className="text-gray-600 text-sm">
-              Contact: +234 818 966 8037
+              Contact: +2347052785021
             </p>
           </div>
         </div>
