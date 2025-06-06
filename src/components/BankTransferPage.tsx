@@ -16,7 +16,7 @@ const BankTransferPage: React.FC<BankTransferPageProps> = ({
   onBack, 
   onTransferConfirmed, 
   userEmail, 
-  amount = '₦6,500',
+  amount = '₦5,500',
   levelName 
 }) => {
   const [email, setEmail] = useState(userEmail);
@@ -79,9 +79,9 @@ const BankTransferPage: React.FC<BankTransferPageProps> = ({
     } else {
       // Default account for PAY ID purchase
       return {
-        accountNumber: '6028806937',
-        bankName: 'MONIEPOINT MFB',
-        accountName: 'GIFT GOODLUCK'
+        accountNumber: '6101229232',
+        bankName: 'OPAY',
+        accountName: 'IFEANYI KALU'
       };
     }
   };
