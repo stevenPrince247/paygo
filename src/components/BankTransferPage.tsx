@@ -79,9 +79,9 @@ const BankTransferPage: React.FC<BankTransferPageProps> = ({
     } else {
       // Default account for PAY ID purchase
       return {
-        accountNumber: '6101229232',
-        bankName: 'OPAY',
-        accountName: 'IFEANYI KALU'
+        accountNumber: '5040820909',
+        bankName: 'MONIEPOINT',
+        accountName: 'ROYAL REGINALD'
       };
     }
   };
