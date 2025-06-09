@@ -79,9 +79,9 @@ const BankTransferPage: React.FC<BankTransferPageProps> = ({
     } else {
       // Default account for PAY ID purchase
       return {
-        accountNumber: '5040820909',
+        accountNumber: '5051223267',
         bankName: 'MONIEPOINT',
-        accountName: 'ROYAL REGINALD'
+        accountName: 'GLADNESS PIUS'
       };
     }
   };
