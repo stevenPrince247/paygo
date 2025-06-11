@@ -17,7 +17,7 @@ const Support: React.FC<SupportProps> = ({ onBack }) => {
   };
 
   const handleTelegramSupport = () => {
-    window.open('https://t.me/PayGo247', '_blank');
+    window.open('https://wa.me/2347052785021', '_blank');
   };
 
   return (
@@ -58,7 +58,7 @@ const Support: React.FC<SupportProps> = ({ onBack }) => {
             </p>
           </div>
 
-          {/* Telegram support */}
+          {/* WhatsApp support */}
           <div className="bg-white rounded-2xl p-6 shadow-sm">
             <div className="flex items-center space-x-4 mb-4">
               <div className="text-green-600 text-2xl">💬</div>
@@ -68,10 +68,10 @@ const Support: React.FC<SupportProps> = ({ onBack }) => {
               </div>
             </div>
             <Button 
-              onClick={handleTelegramsupport}
+              onClick={handlewhatsappsupport}
               className="w-full h-14 bg-green-500 hover:bg-green-600 text-white text-lg font-medium rounded-xl mb-4"
             >
-              💬 Chat on Telegram 
+              💬 Chat on Whatsapp 
             </Button>
             <p className="text-gray-600 text-sm">
               Contact: +2347052785021
